@@ -1,0 +1,24 @@
+{
+    "device": {
+        "name": "esp32-dht22-01",
+        "sensors": [
+            "CH1",
+            "CH2",
+            "CH3",
+            "CH4"
+        ],
+        "scale": 1,
+        "to_int": false
+    },
+    "wifi":{
+        "ssid": "ssid",
+        "password": "password"
+    },
+    "mqtt": {
+        "server":"io.adafruit.com",
+        "user":"adafruit_username",
+        "key":"adafruit_io_key",
+        "feed":"adafruit_io_feed",
+        "sleep": 60 
+    }
+}
